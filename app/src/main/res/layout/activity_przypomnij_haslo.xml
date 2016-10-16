@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.marta.farmaceutycznypomocnik.Przypomnij_haslo">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/czarny"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="@string/przypomnij_1"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="@string/email_hint"
+        android:gravity="center"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/wyslij_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="@color/przypomnij_kolor"
+        android:text="@string/wyslij_button"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:onClick="wyslijClick"/>
+
+    <Button
+        android:id="@+id/wstecz_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="30dp"
+        android:text="@string/wstecz_button"
+        android:textColor="@color/czarny"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:background="@color/wstecz_kolor"
+        android:onClick="wsteczClick"/>
+
+</LinearLayout>

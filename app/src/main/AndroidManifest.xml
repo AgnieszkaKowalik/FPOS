@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.marta.farmaceutycznypomocnik">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Start">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Opiekun_1_register" />
+        <activity android:name=".Opiekun_2_nowy_pacjent" />
+        <activity android:name=".Opiekun_3_dodaj_lek" />
+        <activity android:name=".Opiekun_4_lista_lekow" />
+        <activity android:name=".Opiekun_1_zalogowany" />
+        <activity android:name=".Opiekun_1_login" />
+        <activity android:name=".Przypomnij_haslo"></activity>
+    </application>
+
+</manifest>

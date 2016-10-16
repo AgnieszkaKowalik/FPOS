@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Farmaceutyczny Pomocnik</string>
+
+    <string name="dalej_button">DALEJ</string>
+    <string name="wstecz_button">WSTECZ</string>
+    <string name="zapisz_button">ZAPISZ</string>
+    <string name="wyslij_button">WYŚLIJ</string>
+
+    <string name="przypomnij_haslo_button">Przypomnij hasło</string>
+    <string name="login_button">ZALOGUJ</string>
+
+    <string name="przypomnij_1">Wprowadź adres e-mail podany przy rejestracji:</string>
+
+    <string name="pacjent_button">PACJENT</string>
+    <string name="opiekun_button">OPIEKUN</string>
+    <string name="zamknij_button">ZAMKNIJ</string>
+    <string name="nowy_pacjent">NOWY PACJENT</string>
+
+    <string name="opiekun1_text">Wybrałeś wersję dla opiekuna</string>
+    <string name="opiekun1_text2">Ustaw hasło dostępu do tej części aplikacji.</string>
+    <string name="podaj_haslo">Wprowadź hasło:</string>
+    <string name="podaj_haslo2">Wprowadź hasło ponownie:</string>
+    <string name="email">Podaj adres e-mail:</string>
+    <string name="email_2">Potwierdź adres e-mail:</string>
+    <string name="haslo1_hint">Dotknij, aby wpisać hasło</string>
+    <string name="haslo2_hint">Dotknij, aby wpisać hasło ponownie</string>
+    <string name="email_hint">Dotknij, aby wpisać e-mail</string>
+    <string name="email2_hint">Dotknij, aby wpisać e-mail ponownie</string>
+    <string name="register_button">ZAREJESTRUJ</string>
+
+    <string name="lista_pacjentow">LISTA PACJENTÓW</string>
+
+    <string name="opiekun2_text3">Wprowadź dane o pacjencie:</string>
+    <string name="imie">Imię</string>
+    <string name="imie_pacjenta_hint">Dotknij, aby podać imię </string>
+    <string name="dodaj_lek_button">DODAJ LEK</string>
+
+    <string name="pacjent">Pacjent: </string>
+    <string name="nazwa_leku">Nazwa: </string>
+    <string name="nazwa_leku_hint">Dotknij, aby podać nazwę leku</string>
+    <string name="dawka_leku">Dawka: </string>
+    <string name="dawka_leku_hint">Dotknij, aby podać dawkę leku</string>
+    <string name="dodatkowe_info">Dodatkowe informacje (np. przed/po posiłku): </string>
+    <string name="dodatkowe_info_hint">Dotknij, aby podać dodatkowe informacje</string>
+    <string name="dni_tygodnia">Dni przyjmowania leku: </string>
+    <string name="dni_tyg_hint">Dotknij, aby podać dni przyjmowania leku</string>
+    <string name="godzina">Godziny przyjmowania leku: </string>
+    <string name="godziny_hint">Dotknij, aby podać godziny przyjmowania leku</string>
+
+
+    <string name="opiekun2_text4">PRZYJMOWANE LEKI</string>
+    <string name="dodaj_next_lek_button">DODAJ KOLEJNY LEK</string>
+
+</resources>

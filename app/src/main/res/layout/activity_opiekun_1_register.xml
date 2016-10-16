@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Opiekun_1_register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/opiekun1_text"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="left"
+            android:textColor="@color/czarny"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/opiekun1_text2"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/czarny"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/podaj_haslo"
+            android:textSize="20sp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/czarny"/>
+
+        <EditText
+            android:id="@+id/haslo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:hint="@string/haslo1_hint"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/podaj_haslo2"
+            android:textSize="20sp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/czarny"/>
+
+        <EditText
+            android:id="@+id/haslo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:hint="@string/haslo2_hint"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            android:textSize="20sp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/czarny"/>
+
+        <EditText
+            android:id="@+id/email1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email_hint"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/email_2"
+            android:textSize="20sp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/czarny"/>
+
+        <EditText
+            android:id="@+id/email2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email2_hint"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"/>
+
+        <Button
+            android:id="@+id/register_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_gravity="center"
+            android:text="@string/register_button"
+            android:textColor="@color/czarny"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:background="@color/zaloguj_kolor"
+            android:onClick="registerClick"/>
+
+        <Button
+            android:id="@+id/wstecz_button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_margin="10dp"
+            android:text="@string/wstecz_button"
+            android:textColor="@color/czarny"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:background="@color/wstecz_kolor"
+            android:onClick="wsteczClick"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -13,6 +13,25 @@ public class Opiekun_1_register extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_opiekun_1_register);
     }
+zzzzzzzzzz
+
+    zzzzzzzzzz
+        z
+    z
+                z
+    z
+
+                        z
+    zz
+                                z
+
+    zzz
+
+    public z getZ() {
+        z
+                zz
+                
+    }
 
     public void registerClick (View v) {
         startActivity(new Intent(this, Start.class));

@@ -9,15 +9,15 @@ public class Opiekun_3_dodaj_lek extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+        super.onCreate(savgtrhtyhjedInstanceState);
         setContentView(R.layout.activity_opiekun_3_dodaj_lek);
-    }
-
-    public void zapiszClick (View view) {
+    }yth
+ewger
+    public void zapiszrthClick (View view) {
         //trzeba dodawać lek do bazy do odpowiedniego pacjenta
-    }
-
+    }yth
     public void wsteczClick (View view) {
         startActivity(new Intent(this, Opiekun_4_lista_lekow.class));
-    }
+    }tyjyu
 }
+j

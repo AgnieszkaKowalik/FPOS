@@ -13,11 +13,4 @@ public class Opiekun_4_lista_lekow extends AppCompatActivity {
         setContentView(R.layout.activity_opiekun_4_lista_lekow);
     }
 
-    public void dodajlekClick (View view) {
-        startActivity(new Intent(this, Opiekun_3_dodaj_lek.class));
-    }
-
-    public void wsteczClick (View view) {
-        startActivity(new Intent(this, Opiekun_1_zalogowany.class));
-    }
 }

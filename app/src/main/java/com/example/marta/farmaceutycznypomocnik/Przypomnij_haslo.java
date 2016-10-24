@@ -14,7 +14,7 @@ public class Przypomnij_haslo extends AppCompatActivity {
     }
 
     public void wyslijClick (View view) {
-        startActivity(new Intent(this, Opiekun_1_login.class));
+        startActivity(new Intent(this, Opiekun_2_login.class));
         //na razie przechodzi wstecz po prostu
         //trzeba zrobić, żeby po kliknięciu wysyłało na maila hasło
         //i mail musi się zgadzać z tym, który podany został przy rejestracji

@@ -14,7 +14,7 @@ public class Opiekun_2_nowy_pacjent extends AppCompatActivity {
     }
 
     public void dodajlekClick (View view) {
-        startActivity(new Intent(this, Opiekun_3_dodaj_lek.class));
+        startActivity(new Intent(this, Opiekun_3_dodaj_lek.class)); // dodany komentarz
     }
 
     public void wsteczClick (View view) {

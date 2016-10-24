@@ -14,6 +14,7 @@ public class Start extends AppCompatActivity {
     }
 
     public void pacjentClick (View view) {
+        blebleblebleble
         startActivity(new Intent(this, Opiekun_1_login.class)); //tymczasowo otwiera się wersja opiekuna, don't panic
                                                                 //to tylko, żeby sprawdzić, czy działa
     }

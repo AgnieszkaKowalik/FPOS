@@ -14,6 +14,7 @@ public class Opiekun_3_dodaj_lek extends AppCompatActivity {
     }
 
     public void zapiszClick (View view) {
+        bebleblelblemfoefjojjo
         //trzeba dodawać lek do bazy do odpowiedniego pacjenta
     }
 

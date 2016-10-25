@@ -11,7 +11,6 @@ public class Opiekun_1_login extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_opiekun_1_login);
-        próba kontrolna
     }
 
     public void przypomnijClick (View view) {

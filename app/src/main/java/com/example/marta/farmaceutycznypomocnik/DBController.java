@@ -24,7 +24,6 @@ public class DBController extends SQLiteOpenHelper {
         db.execSQL(
                 "create table leki(" +
                         "nr integer primary key autoincrement," +
-                        "imie text," +
                         "nazwa text," +
                         "dawka text," +
                         "info text," +
@@ -40,8 +39,7 @@ public class DBController extends SQLiteOpenHelper {
     public void dodajLek(Lek lek){ // przekazanie do metody całego obiektu klasy Lek o nazwie lek
         SQLiteDatabase db = getWritableDatabase(); // uchwyt do bazy pozwalający na dodawanie danych do bazy
         ContentValues wartosci = new ContentValues();
-        wartosci.put("imie", lek.getImie()); // metoda put("nazwa kolumny", parametr);
-        wartosci.put("nazwa", lek.getNazwa());
+        wartosci.put("nazwa", lek.getNazwa()); // metoda put("nazwa kolumny", parametr);
         wartosci.put("dawka",lek.getDawka());
         wartosci.put("info", lek.getInfo());
         wartosci.put("dni", lek.getDni());
@@ -53,7 +51,6 @@ public class DBController extends SQLiteOpenHelper {
     public void aktualizujLek(Lek lek){
         SQLiteDatabase db = getWritableDatabase();
         ContentValues wartosci = new ContentValues();
-        wartosci.put("imie", lek.getImie()); // metoda put("nazwa kolumny", parametr);
         wartosci.put("nazwa", lek.getNazwa());
         wartosci.put("dawka",lek.getDawka());
         wartosci.put("info", lek.getInfo());
@@ -67,18 +64,17 @@ public class DBController extends SQLiteOpenHelper {
     // metoda dajWszystkie() - pobieranie danych z bazy i zwracanie jako listę obiektów klasy LinkedList
     public List<Lek> dajWszystkie(){
         LinkedList leki = new LinkedList<Lek>();
-        String[] kolumny={"nr","imie","nazwa","dawka","info","dni","godziny"};
+        String[] kolumny={"nr","nazwa","dawka","info","dni","godziny"};
         SQLiteDatabase db = getReadableDatabase(); // uchwyt do bazy pozwalający na odczyt danych z bazy
         Cursor kursor =db.query("leki",kolumny,null,null,null,null,null);
         while(kursor.moveToNext()){
             Lek lek = new Lek(); // tworzenie pustego obiektu klasy Lek o nazwie lek
             lek.setNr(kursor.getLong(0)); // uzupełnianie pól obiektu lek
-            lek.setImie(kursor.getString(1));
-            lek.setNazwa(kursor.getString(2));
-            lek.setDawka(kursor.getString(3));
-            lek.setInfo(kursor.getString(4));
-            lek.setDni(kursor.getString(5));
-            lek.setGodziny(kursor.getString(6));
+            lek.setNazwa(kursor.getString(1));
+            lek.setDawka(kursor.getString(2));
+            lek.setInfo(kursor.getString(3));
+            lek.setDni(kursor.getString(4));
+            lek.setGodziny(kursor.getString(5));
             leki.add(lek);// dodwanie obiektu lek do listy
         }
         return leki; // zwracanie listy leków
@@ -88,7 +84,7 @@ public class DBController extends SQLiteOpenHelper {
     public Lek dajLek(int nr){
         Lek lek = new Lek(); // tworzenie pustego obiektu klasy Lek o nazwie lek
         SQLiteDatabase db = getReadableDatabase();
-        String[] kolumny={"nr","imie","nazwa","dawka","info","dni","godziny"}; // kolumny, które mają być czytane
+        String[] kolumny={"nr","nazwa","dawka","info","dni","godziny"}; // kolumny, które mają być czytane
         String args[]={nr+""}; // podstawienie wartości która trafi pod znak „?” w warunku where
 
         /* metoda QUERY : argumenty odpowiedzialne za:
@@ -103,12 +99,11 @@ public class DBController extends SQLiteOpenHelper {
             // czytanie danych z pól wiersza i uzupełniania obiektu
             kursor.moveToFirst(); // przejście do pierwszego wiersza
             lek.setNr(kursor.getLong(0));
-            lek.setImie(kursor.getString(1));
-            lek.setNazwa(kursor.getString(2));
-            lek.setDawka(kursor.getString(3));
-            lek.setInfo(kursor.getString(4));
-            lek.setDni(kursor.getString(5));
-            lek.setGodziny(kursor.getString(6));
+            lek.setNazwa(kursor.getString(1));
+            lek.setDawka(kursor.getString(2));
+            lek.setInfo(kursor.getString(3));
+            lek.setDni(kursor.getString(4));
+            lek.setGodziny(kursor.getString(5));
         }
         return lek; // zwracanie uzupełnionego obiektu
     }

@@ -6,7 +6,6 @@ package com.example.marta.farmaceutycznypomocnik;
 
 public class Lek {
     private Long nr;
-    private String imie;
     private String nazwa;
     private String dawka;
     private String info;
@@ -23,14 +22,6 @@ public class Lek {
 
     public void setNr(Long nr) {
         this.nr = nr;
-    }
-
-    public String getImie() {
-        return imie;
-    }
-
-    public void setImie(String imie) {
-        this.imie = imie;
     }
 
     public String getNazwa() {

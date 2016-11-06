@@ -19,13 +19,13 @@ public class Opiekun_2_nowy_pacjent extends AppCompatActivity {
         etImie = (EditText) this.findViewById(R.id.imie_pacjenta);
     }
 
-    public void dodajlekClick (View view) {
+    public void dalejClick (View view) {
         if (etImie.getText().toString().equals("")) {
             Toast.makeText(getApplicationContext(),
                     "WPROWADZ IMIE PACJENA!", Toast.LENGTH_SHORT).show();
         } else {
             String imiePacjenta = etImie.getText().toString(); // Pobieramy tekst z pola
-            Intent cel = new Intent(this, Opiekun_3_dodaj_lek.class); // Definiujemy cel
+            Intent cel = new Intent(this, Opiekun_4_lista_lekow.class); // Definiujemy cel
             cel.putExtra("imieNowyPacjent", imiePacjenta); // Towrzymy Bundle od razu dodając informacje do Intentu
             startActivity(cel);         // Wysyłamy
         }
@@ -35,7 +35,4 @@ public class Opiekun_2_nowy_pacjent extends AppCompatActivity {
         startActivity(new Intent(this, Opiekun_2_nowy_pacjent.class));
     }
 
-    public void zapiszClick (View view) {
-       //trzeba dodawać nowego pacjenta do bazy
-    }
 }

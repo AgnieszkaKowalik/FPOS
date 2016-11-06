@@ -5,6 +5,7 @@
     <string name="wstecz_button">WSTECZ</string>
     <string name="zapisz_button">ZAPISZ</string>
     <string name="wyslij_button">WYŚLIJ</string>
+    <string name="anuluj_button">ANULUJ</string>
 
     <string name="przypomnij_haslo_button">Przypomnij hasło</string>
     <string name="login_button">ZALOGUJ</string>

@@ -19,7 +19,6 @@
         <activity android:name=".Opiekun_2_nowy_pacjent" />
         <activity android:name=".Opiekun_3_dodaj_lek" />
         <activity android:name=".Opiekun_4_lista_lekow" />
-        <activity android:name=".Opiekun_1_zalogowany" />
         <activity android:name=".Opiekun_1_login" />
         <activity android:name=".Przypomnij_haslo"></activity>
     </application>

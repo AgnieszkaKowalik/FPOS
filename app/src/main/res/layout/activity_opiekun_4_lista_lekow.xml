@@ -32,9 +32,10 @@
             android:textColor="@color/czarny" />
 
         <TextView
+            android:id="@+id/imieP"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="tu bedzie imię"
+            android:text=" "
             android:textSize="20sp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"

@@ -17,7 +17,4 @@ public class Opiekun_3_dodaj_lek extends AppCompatActivity {
         //trzeba dodawać lek do bazy do odpowiedniego pacjenta
     }
 
-    public void wsteczClick (View view) {
-        startActivity(new Intent(this, Opiekun_4_lista_lekow.class));
-    }
 }

@@ -4,13 +4,20 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
 
 public class Opiekun_4_lista_lekow extends AppCompatActivity {
+
+    TextView tvImie;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_opiekun_4_lista_lekow);
+
+        tvImie = (TextView) this.findViewById(R.id.imieP);
+
+        tvImie.setText("");
     }
 
     public void dodajlekClick (View view) {
@@ -18,6 +25,6 @@ public class Opiekun_4_lista_lekow extends AppCompatActivity {
     }
 
     public void wsteczClick (View view) {
-        startActivity(new Intent(this, Opiekun_1_zalogowany.class));
+        startActivity(new Intent(this, Opiekun_2_nowy_pacjent.class));
     }
 }

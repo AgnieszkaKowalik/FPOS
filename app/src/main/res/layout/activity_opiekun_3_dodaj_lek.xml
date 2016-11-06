@@ -126,28 +126,6 @@
             android:textStyle="bold"
             android:onClick="zapiszClick"/>
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_gravity="left">
-
-            <Button
-                android:layout_width="200dp"
-                android:layout_height="wrap_content"
-                android:text="@string/wstecz_button"
-                android:textSize="30sp"
-                android:layout_gravity="left"
-                android:padding="10dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginTop="30dp"
-                android:layout_marginRight="10dp"
-                android:background="@color/wstecz_kolor"
-                android:textStyle="bold"
-                android:onClick="wsteczClick"/>
-
-        </LinearLayout>
-
     </LinearLayout>
 
 </ScrollView>

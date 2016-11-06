@@ -5,6 +5,7 @@
     <string name="wstecz_button">WSTECZ</string>
     <string name="zapisz_button">ZAPISZ</string>
     <string name="wyslij_button">WYŚLIJ</string>
+    <string name="anuluj_button">ANULUJ</string>
 
     <string name="przypomnij_haslo_button">Przypomnij hasło</string>
     <string name="login_button">ZALOGUJ</string>
@@ -14,7 +15,7 @@
     <string name="pacjent_button">PACJENT</string>
     <string name="opiekun_button">OPIEKUN</string>
     <string name="zamknij_button">ZAMKNIJ</string>
-    <string name="nowy_pacjent">NOWY PACJENT</string>
+    <string name="nowy_pacjent">DODAJ PACJENTA</string>
 
     <string name="opiekun1_text">Wybrałeś wersję dla opiekuna</string>
     <string name="opiekun1_text2">Ustaw hasło dostępu do tej części aplikacji.</string>
@@ -27,8 +28,6 @@
     <string name="email_hint">Dotknij, aby wpisać e-mail</string>
     <string name="email2_hint">Dotknij, aby wpisać e-mail ponownie</string>
     <string name="register_button">ZAREJESTRUJ</string>
-
-    <string name="lista_pacjentow">LISTA PACJENTÓW</string>
 
     <string name="opiekun2_text3">Wprowadź dane o pacjencie:</string>
     <string name="imie">Imię</string>
@@ -49,6 +48,6 @@
 
 
     <string name="opiekun2_text4">PRZYJMOWANE LEKI</string>
-    <string name="dodaj_next_lek_button">DODAJ KOLEJNY LEK</string>
+    <string name="dodaj_next_lek_button">DODAJ LEK</string>
 
 </resources>

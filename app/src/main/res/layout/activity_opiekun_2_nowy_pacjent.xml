@@ -49,19 +49,6 @@
 
     </LinearLayout>
 
-    <Button
-        android:id="@+id/dodajlek_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/dodaj_lek_button"
-        android:textSize="30sp"
-        android:padding="10dp"
-        android:layout_margin="25dp"
-        android:layout_gravity="center"
-        android:background="@color/dodaj_kolor"
-        android:textStyle="bold"
-        android:onClick="dodajlekClick"/>
-
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -84,10 +71,10 @@
             android:onClick="wsteczClick"/>
 
         <Button
-            android:id="@+id/zapisz_button"
+            android:id="@+id/dalej_button"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:text="@string/zapisz_button"
+            android:text="@string/dalej_button"
             android:textSize="30sp"
             android:layout_gravity="left"
             android:padding="10dp"
@@ -96,6 +83,6 @@
             android:layout_marginRight="5dp"
             android:background="@color/zapisz_kolor"
             android:textStyle="bold"
-            android:onClick="zapiszClick"/>
+            android:onClick="dalejClick"/>
     </LinearLayout>
 </LinearLayout>
